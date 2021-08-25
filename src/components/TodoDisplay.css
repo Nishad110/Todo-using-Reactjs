@@ -1,0 +1,40 @@
+.todo-container{
+    width: 36vw;
+    
+    margin: auto;
+    text-align: center;
+}
+.todo-item{
+    width:100%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    border: 1px solid #fff;
+    
+    margin-left: -13px;
+    margin-top: 10px;
+    padding: 12px;
+    background: linear-gradient(
+    90deg,
+    rgb(255, 104, 16) 0%,
+    rgb(255, 170, 100) 100%
+  );
+}
+.todo-text{
+    float: left;
+    margin-top: 2px;
+    
+}
+.todo-delete{
+    float: right;
+    font-size: 17px;
+    margin-left: 15px;
+}
+.todo-delete:hover{
+    cursor: pointer;
+}
+.todo-complete{
+    float: right;
+    font-size: 18px;
+    
+}

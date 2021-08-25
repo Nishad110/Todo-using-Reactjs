@@ -1,0 +1,31 @@
+.todo-textfield{
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    padding: 8px;
+    border-radius: 0px;
+    border: 1px solid rgb(4, 94, 136);
+    width : 30vw;
+    margin-top: 20px;
+}
+.todo-textfield:focus{
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    padding: 8px;
+    border-radius: 0px;
+    border: 1px solid rgb(4, 94, 136);
+    width : 30vw;
+    margin-top: 20px;
+    outline: none;
+}
+
+.todo-button{
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: 1px solid rgb(4, 94, 136);
+    border-left: 0px;
+    padding-bottom: 7px;
+    color: #fff;
+    background: -webkit-linear-gradient(to right,rgb(4, 94, 136),rgb(19, 110, 170));
+    background: linear-gradient(to right,rgb(4, 94, 136),rgb(19, 110, 170));
+}
